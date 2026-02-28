@@ -1,0 +1,54 @@
+[profile.default]
+skills = [
+  "skills/pdf",
+  "skills/docx",
+  "skills/xlsx",
+  "skills/pptx",
+  "skills/skill-creator",
+]
+
+[profile.default.mcp_servers.context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp"]
+
+[profile.design]
+skills = [
+  "skills/frontend-design",
+  "skills/canvas-design",
+  "skills/brand-guidelines",
+  "skills/theme-factory",
+  "skills/web-artifacts-builder",
+  "skills/algorithmic-art",
+]
+
+[profile.documents]
+skills = [
+  "skills/pdf",
+  "skills/docx",
+  "skills/xlsx",
+  "skills/pptx",
+]
+
+[profile.full]
+skills = [
+  "skills/algorithmic-art",
+  "skills/brand-guidelines",
+  "skills/canvas-design",
+  "skills/doc-coauthoring",
+  "skills/docx",
+  "skills/frontend-design",
+  "skills/internal-comms",
+  "skills/mcp-builder",
+  "skills/pdf",
+  "skills/pptx",
+  "skills/skill-creator",
+  "skills/slack-gif-creator",
+  "skills/theme-factory",
+  "skills/web-artifacts-builder",
+  "skills/webapp-testing",
+  "skills/xlsx",
+]
+
+[profile.full.mcp_servers.context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp"]
